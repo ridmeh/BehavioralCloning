@@ -12,10 +12,15 @@ Data provided by udacity was good but need augumentation. I attempted below augu
 -Flipping Images & Sterring measurements
 -Cropping
 -Removed ALL zeros
-
+Image from Left Camera
 ![picture](left.jpg)
+
+Image from Center Camera
 ![picture](center.jpg)
+
+Image from Right Camera
 ![picture](right.jpg)
+
 
 # Model Architecture and Training Strategy
 
