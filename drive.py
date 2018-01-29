@@ -45,7 +45,7 @@ class SimplePIController:
 
 
 controller = SimplePIController(0.1, 0.002)
-set_speed = 9
+set_speed = 8
 controller.set_desired(set_speed)
 
 
@@ -69,7 +69,7 @@ def telemetry(sid, data):
 
         # The driving model currently just outputs a constant throttle. Feel free to edit this.
         throttle = 0.3
-        if abs(steering_angle) > 0.1:
+        if abs(steering_angle) > 0.05:
             throttle = 0.2
 		
         throttle = controller.update(float(speed))
