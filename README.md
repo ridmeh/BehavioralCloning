@@ -35,6 +35,9 @@ My first archictecture was simple one as described in class sessions. I chose AW
 
 When steering angle is high I modified throttle in drive.py to slow down the car. I got this suggestion in some earlier forum and found to be very helpful.
 
+# Result
+Please download the demo video run.mp4 in the project of [Autonomous Drive](run.mp4) 
+
 # Observations
 
 1. Project which initially looked simple went very challanging when car would either move in circles or drive into woods. After following forum ( which is of immense help) I fixed most of the issues. After all trials, car would still not drive straight. I later learnt keras was using Theano backend and not TensorFlow. Once I switched to TensorFlow, car completed the entire track with no issues in one go. Amazing experience.
