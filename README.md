@@ -10,10 +10,11 @@ I began as suggested by collecting data using keyboard. When I looked at distrib
 
 Data provided by udacity was good but need augumentation. I attempted below augumentation with which model worked really well.
 
--Flipping Images & Sterring measurements
--Cropping
--Removed ALL zeros
+* Flipping Images & Sterring measurements
+* Cropping
+* Removed ALL zeros
 
+Sample images from 3 different cameras:
 
 Image from Left Camera
 ![picture](left.jpg)
@@ -28,6 +29,7 @@ Image from Right Camera
 # Model Architecture and Training Strategy
 
 My first archictecture was simple one as described in class sessions. I chose AWS to train the system. I tried Nvidia architecture to run smoother then couple of models that I trained earlier with. Final model runs great with speed of 9. Car stays in the middle most of time and able to jump back when come close to sides.  
+
 
 # Automation testing
 
