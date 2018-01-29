@@ -13,6 +13,9 @@ Data provided by udacity was good but need augumentation. I attempted below augu
 -Cropping
 -Removed ALL zeros
 
+![picture](left.png)
+![picture](center.png)
+![picture](right.png)
 
 # Model Architecture and Training Strategy
 
