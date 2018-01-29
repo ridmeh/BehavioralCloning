@@ -30,7 +30,24 @@ Image from Right Camera
 
 # Model Architecture and Training Strategy
 
-My first archictecture was simple one as described in class sessions. I chose AWS to train the system. I tried Nvidia architecture to run smoother then couple of models that I trained earlier with. Final model runs great with speed of 9. Car stays in the middle most of time and able to jump back when come close to sides.  
+My first archictecture was simple one as described in class sessions. I chose AWS to train the system. I tried Nvidia architecture to run smoother then couple of models that I trained earlier with. Final model runs great with speed of 9. Car stays in the middle most of time and able to jump back when come close to sides. 
+
+** AWS Timing** 
+Train on 17203 samples, validate on 4301 samples
+Epoch 1/3
+17203/17203 [==============================] - 40s - loss: 0.0197 - val_loss: 0.0165
+Epoch 2/3
+17203/17203 [==============================] - 33s - loss: 0.0161 - val_loss: 0.0169
+Epoch 3/3
+17203/17203 [==============================] - 33s - loss: 0.0155 - val_loss: 0.0175
+** Laptop Timing **
+Train on 17203 samples, validate on 4301 samples
+Epoch 1/3
+17203/17203 [==============================] - 555s 32ms/step - loss: 0.0197 - val_loss: 0.0180
+Epoch 2/3
+17203/17203 [==============================] - 636s 37ms/step - loss: 0.0162 - val_loss: 0.0168
+Epoch 3/3
+17203/17203 [==============================] - 299s 17ms/step - loss: 0.0157 - val_loss: 0.0168
 model = Sequential()
 
 model.add(Lambda(lambda x: x/255.0 -0.5, input_shape=(160,320,3)))
