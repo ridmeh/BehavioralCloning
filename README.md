@@ -9,9 +9,12 @@ I began as suggested by collecting data using keyboard. When I looked at distrib
 # Data Augumentation
 
 Data provided by udacity was good but need augumentation. I attempted below augumentation with which model worked really well.
+
 -Flipping Images & Sterring measurements
 -Cropping
 -Removed ALL zeros
+
+
 Image from Left Camera
 ![picture](left.jpg)
 
